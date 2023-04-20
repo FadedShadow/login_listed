@@ -1,12 +1,19 @@
 import React from 'react'
 import Login from './Login'
-// import Dash from './Dash'
+ import Dash from './Dash'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-     {/* <Dash /> */}
-    <Login />
+    <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Login />} />
+            <Route path="/dash" element={<Dash/>} />
+        </Routes>
+      </BrowserRouter>
+     {/* <Dash />
+    <Login /> */}
     </>
   )
 }

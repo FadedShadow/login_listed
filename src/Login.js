@@ -1,5 +1,6 @@
 import './App.css';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { NavLink } from 'react-router-dom'
 import AppleIcon from '@mui/icons-material/Apple';
 
 import React from 'react';
@@ -14,9 +15,9 @@ function Login() {
     };
     return (
       <>
-      {/* <div className="left">
+      <div className="left">
         <h1 className='heading'>Board.</h1>
-      </div> */}
+      </div>
       <div className='other'>
       <div className='rightside'>
         <h2 className='right'>Sign In</h2>
@@ -54,9 +55,9 @@ function Login() {
               <label htmlFor="">Password</label>
               <input type="password" name="password"/>
               <p>Forgot password?</p>
-              {/* <NavLink to='/dash'> */}
+              <NavLink to='/dash'>
                 <button type="submit">Sign in</button>
-                {/* </NavLink> */}
+                </NavLink>
               </form>
             </div>
             <div className='register'><p>Don't have an account? <span>Register here</span></p></div>
