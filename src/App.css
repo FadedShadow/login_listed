@@ -1,15 +1,35 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
+
+.dash{
+  color: aqua;
+}
 .left{
   background-color: black;
   position: absolute;
   height: 100%;
   width: 30%;
 }
+.dleft{
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  border-radius: 20px;
+  margin: 20px;
+}
 .heading{
   color: white;
   margin: 65% 40%;
+}
+.dashh{
+    color: white;
+    margin: 15% 20%;
+}
+.menu{
+  color: white;
+  margin: 1% 15%;
 }
 .rightside{
   position: absolute;
@@ -29,6 +49,21 @@
   display: flex;
   margin: 80px 750px;
 }
+.form{
+  position: absolute;
+  display: flex;
+  margin: 110px 800px;
+}
+.passw{
+  position: absolute;
+  display: flex;
+  margin: 70px 0px;
+}
+.submit{
+  position: absolute;
+  display: flex;
+  margin: 160px 0px;
+}
 .apple{
   position: absolute;
   margin: 80px 950px;
@@ -43,3 +78,12 @@
   height: 100%;
   width: 100%;
 } */
+@media (min-width: 400px) and (max-width: 600px){
+  .rightside{
+    position: absolute;
+    display: flex;
+    width: 20%;
+    margin: 150px 550px;
+    background-color: aqua;
+  }
+}
