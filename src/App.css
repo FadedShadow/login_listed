@@ -49,20 +49,17 @@
   display: flex;
   margin: 80px 750px;
 }
-.form{
+.loginForm{
   position: absolute;
   display: flex;
-  margin: 110px 800px;
+  margin: 120px 800px;
+  background-color: white;
 }
-.passw{
+
+.register{
   position: absolute;
   display: flex;
-  margin: 70px 0px;
-}
-.submit{
-  position: absolute;
-  display: flex;
-  margin: 160px 0px;
+  margin: 330px 650px;
 }
 .apple{
   position: absolute;
