@@ -1,24 +1,24 @@
-import React from 'react'
-import Login from './Login'
- import Dash from './Dash'
+import React from "react";
+import Login from "./Login";
+import Dash from "./Dash";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-    <BrowserRouter>
+      <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Login />} />
-            <Route path="/dash" element={<Dash/>} />
+          <Route path="/" element={<Login />} />
+          <Route path="/dash" element={<Dash />} />
         </Routes>
       </BrowserRouter>
-     {/* <Dash />
+      {/* <Dash />
     <Login /> */}
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
 
 // import Chart from "chart.js/auto";
 // import { CategoryScale } from "chart.js";
@@ -32,9 +32,9 @@ export default App
 // export default function App() {
 //   const [chartData, setChartData] = useState({
 //     // ...chart data
-    
+
 //   });
- 
+
 //   return (
 //     <div className="App">
 //       <PieChar chartData={chartData} />
